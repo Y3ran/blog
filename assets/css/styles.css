@@ -1,0 +1,115 @@
+/* 1. IMPORTAR FUENTES DE GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+:root {
+    --bg-paper: #f4ecd8;       /* Color crema/papel viejo */
+    --text-ink: #2b2b2b;       /* Color carbón suave */
+    --accent-red: #8a0303;     /* Rojo sangre seca para enlaces/detalles */
+    --border-style: 4px double #2b2b2b; /* Borde doble clásico */
+}
+
+body {
+    background-color: #e6dfc8; /* Fondo general un poco más oscuro */
+    background-image: linear-gradient(#e6dfc8 2px, transparent 2px), linear-gradient(90deg, #e6dfc8 2px, transparent 2px), linear-gradient(rgba(0,0,0,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,.05) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    font-family: 'Lora', serif;
+    color: var(--text-ink);
+    margin: 0;
+    padding: 20px;
+}
+
+/* 2. CONTENEDOR TIPO "HOJA DE PAPEL" */
+main, header, footer {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: var(--bg-paper);
+    padding: 40px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+header {
+    margin-top: 40px;
+    border-bottom: 2px solid var(--text-ink);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main {
+    padding-top: 30px;
+}
+
+footer {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 1px solid var(--text-ink);
+    padding-top: 20px;
+    font-style: italic;
+}
+
+/* 3. TIPOGRAFÍA Y TÍTULOS */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--text-ink);
+    margin-top: 2em;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+    border-bottom: var(--border-style);
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+a {
+    color: var(--accent-red);
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px dotted var(--accent-red);
+    transition: all 0.3s;
+}
+
+a:hover {
+    background-color: var(--accent-red);
+    color: var(--bg-paper);
+}
+
+/* 4. ESTILO DE LAS IMÁGENES (Marco de cuadro) */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid #aaa;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    filter: sepia(30%) contrast(90%); 
+}
+
+/* 5. CITAS (Blockquotes) */
+blockquote {
+    border-left: 4px solid var(--accent-red);
+    margin: 20px 40px;
+    padding-left: 20px;
+    font-style: italic;
+    color: #555;
+    background-color: rgba(0,0,0,0.03);
+    padding: 10px 20px;
+}
+
+/* Lista de entradas en la página de inicio */
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
