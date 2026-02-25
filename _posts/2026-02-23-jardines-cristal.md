@@ -7,7 +7,7 @@ categories: naturaleza arquitectura
 
 En plena revolución industrial, mientras el humo del carbón cubría Londres, surgió una obsesión por capturar la naturaleza y encerrarla en cajas de vidrio. Fue el primer intento masivo de "domar" lo salvaje dentro de la ciudad.
 
-![Invernadero victoriano](blog/assets/img/invernadero.jfif)
+![Invernadero victoriano](/blog/assets/img/invernadero.jfif)
 
 ### La Caja de Ward (Wardian Case)
 Todo comenzó con un accidente feliz. El Dr. Nathaniel Ward descubrió que las plantas podían sobrevivir en recipientes sellados gracias a su propio microclima. Este invento permitió, por primera vez en la historia, transportar plantas exóticas vivas a través de los océanos, cambiando la botánica mundial para siempre.
