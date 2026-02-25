@@ -7,7 +7,7 @@ categories: historia tecnologia
 
 La historia de la aviación tiene un capítulo que a menudo recordamos en blanco y negro, envuelto en llamas. Sin embargo, la muerte del dirigible no fue solo culpa del desastre del Hindenburg; fue una conspiración de la física y la economía.
 
-![Dirigible antiguo sobre la ciudad](blog/assets/img/dirigible.jfif)
+![Dirigible antiguo sobre la ciudad](/blog/assets/img/dirigible.jfif)
 
 ### La Era Dorada
 Hubo un tiempo en que cruzar el Atlántico no significaba ir apretado en un asiento de clase turista, sino flotar en un hotel de lujo. Los dirigibles eran el estándar de la élite, ofreciendo una experiencia silenciosa y majestuosa que los aviones ruidosos de la época no podían igualar.
