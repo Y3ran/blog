@@ -7,7 +7,7 @@ categories: arte urbano
 
 El zumbido eléctrico. El parpadeo rojo en un callejón lluvioso. El neón definió la estética del siglo XX, desde el cine *Noir* hasta el *Cyberpunk*, pero hoy se enfrenta a su extinción a manos de la eficiencia fría del LED.
 
-![Cartel de neón encendido](/assets/img/neon.png)
+![Cartel de neón encendido](blog/assets/img/neon.png)
 
 ### Artesanía en Vidrio
 A diferencia de las luces modernas que salen de una fábrica en masa, cada tubo de neón es una pieza única. Es soplado a mano por un artesano que debe doblar el vidrio sobre el fuego con precisión milimétrica. Es arte convertido en publicidad.
